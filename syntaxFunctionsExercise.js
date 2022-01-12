@@ -76,11 +76,9 @@ function roadRadar(speed,area){
     let overspeeding = speed - currentLimit;
     if(overspeeding <= 20){
         status = 'speeding';
-    }
-    else if(overspeeding <= 40){
+    } else if(overspeeding <= 40) {
         status = 'excessive speeding';
-    }
-    else{
+    } else {
         status = 'reckless driving';
     }
 
